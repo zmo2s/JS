@@ -1,0 +1,10 @@
+How to auto-reload files in Node.js? 
+ 
+ 
+ npm install --save-dev nodemon
+ 
+ package.js
+ 
+ "start": "nodemon --exec babel-node index.js"
+ 
+ https://www.codementor.io/@michaelumanah/how-to-set-up-babel-7-and-nodemon-with-node-js-pbj7cietc
